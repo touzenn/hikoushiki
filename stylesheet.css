@@ -1,0 +1,85 @@
+header {
+    background: linear-gradient(180deg,lavender 0%,lavender 50%,orange 50%,orange 100%);
+}
+
+
+
+.title {
+    color:black;
+    font-size: 60px;
+    text-align: center;
+    padding: 5px;
+    margin: 6px;
+    
+}
+
+* {
+    box-sizing:border-box;
+    
+}
+
+.sub-menu {
+    color:blue;
+    text-align: right;
+    font-size: 20px;
+
+}
+
+h1 {
+    color:pink;
+}
+
+ul  {
+    width:100%;
+}
+
+li {
+    list-style: none;
+}
+
+
+.sao {
+    color:aqua;
+    font-size: 40px;
+    text-align: left;
+}
+
+.yuu {
+    color:pink;
+    font-size: 40px;
+    text-align: left;
+}
+
+.ayane {
+    color:red;
+    font-size: 40px;
+    text-align: left;
+}
+
+.fuka {
+    color:lightgray;
+    font-size: 40px;
+    text-align: left;
+}
+
+.manase {
+    color:mediumaquamarine;
+    font-size: 40px;
+    text-align: left;
+}
+
+.mikan {
+    color:orange;
+    font-size: 40px;
+    text-align: left;
+}
+.orikou {
+    color:purple;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+
+
+
