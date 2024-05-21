@@ -1,16 +1,12 @@
 .title {
+
     font-size:4rem;
     color:black;
     text-align: center;
     
 }
 
-.sub-menu {
-    color:blue;
-    text-align: right;
-    font-size: 1.7rem;
 
-}
 
 h1 {
     color:pink;
@@ -61,8 +57,16 @@ h1 {
 ul {
     padding-left: 0;
 }
+
 li {
     list-style: none;
+}
+
+.flex {
+    color:blue;
+    font-size: 1.7rem;
+    display:flex;
+    justify-content: flex-end;
 }
 
 
