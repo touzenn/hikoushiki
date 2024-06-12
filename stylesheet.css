@@ -1,74 +1,49 @@
-.title {
-
-    font-size:4rem;
-    color:black;
-    text-align: center;
-    
-}
-
-
-
-h1 {
-    color:pink;
-    font-size:2.5rem;
-}
-
 .sao {
     color:aqua;
-    font-size: 3rem;
-    text-align: left;
 }
 
 .yuu {
     color:pink;
-    font-size: 3rem;
-    text-align: left;
 }
 
 .ayane {
     color:red;
-    font-size: 3rem;
-    text-align: left;
 }
 
 .fuka {
     color:lightgray;
-    font-size: 3rem;
-    text-align: left;
 }
 
 .manase {
     color:mediumaquamarine;
-    font-size: 3rem;
-    text-align: left;
 }
 
 .mikan {
     color:orange;
-    font-size: 3rem;
-    text-align: left;
-}
-.orikou {
-    color:purple;
-    font-size: 3rem;
-    text-align: left;
 }
 
-ul {
-    padding-left: 0;
+.orikou {
+    color:purple;
 }
 
 li {
     list-style: none;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0.5rem;
+}
+.image-text {
+    display:none;
+    margin-left: 0;
 }
 
-.flex {
-    color:blue;
-    font-size: 1.7rem;
-    display:flex;
-    justify-content: flex-end;
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-
 
 
 
