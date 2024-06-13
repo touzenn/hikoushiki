@@ -1,8 +1,8 @@
 /*スマホの画面*/ 
 @media screen and (max-width: 767px) {
     img {
-        width:150px;
-        height: 220px;
+        width:130px;
+        height: 200px;
         margin: 5px;
     }
 
@@ -16,7 +16,10 @@
         font-size: 1.5rem;
     }
 
-
+    .image-container {
+        margin-bottom: 1px;
+        display: flex;
+    }
 
     
 
@@ -25,17 +28,31 @@
 /*タブレットの画面*/
 @media screen and (min-width: 768px) {
     img {
-        width:230px;
-        height: 300px;
+        width:260px;
+        height: 380px;
         margin: 5px;
     }
 
     .image-container {
-        align-items: center;
+        flex-direction: column;
         margin-bottom: 1px;
         display: flex;
     }
 
+    .logo {
+        font-size:4rem;
+        text-align: center;
+
+    }
+
+    .menue {
+        font-size:2.5rem;
+        text-align: right;
+    }
+
+    .gallery {
+        align-items: center;
+    }
 
 
 }
