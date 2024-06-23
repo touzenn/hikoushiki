@@ -48,8 +48,12 @@ li {
 ul {
     margin: 0;
     padding: 0.5rem;
-    border: 1px solid black;
 }
+
+ul .image-text {
+    border:left 1px solid black;
+}
+
 .image-text {
     display:none;
     margin-left: 0;
