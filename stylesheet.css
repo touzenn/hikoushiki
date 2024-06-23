@@ -3,6 +3,9 @@ header {
     margin: 0;
     padding: 0;
 }
+.menue a {
+    text-decoration: none;
+}
 
 img {
     outline: 2px solid black;
