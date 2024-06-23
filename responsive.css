@@ -56,5 +56,9 @@
         align-items: center;
     }
 
+    .menue a {
+        text-decoration: underline;
+    }
+
 
 }
