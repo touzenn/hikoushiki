@@ -2,6 +2,10 @@ header {
     background-color:yellow;
 }
 
+img {
+    outline: 2px solid black;
+}
+
 .sao {
     color:aqua;
     font-size:1.5rem;
