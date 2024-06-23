@@ -1,5 +1,7 @@
 header {
     background-color:yellow;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -48,10 +50,6 @@ li {
 ul {
     margin: 0;
     padding: 0.5rem;
-}
-
-ul .image-text {
-    border:left 1px solid black;
 }
 
 .image-text {
