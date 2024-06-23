@@ -51,6 +51,7 @@
 
     .gallery {
         display:flex;
+        flex-direction: colmn;
         align-items: center;
     }
 
