@@ -50,6 +50,7 @@
     }
 
     .gallery {
+        display:flex;
         align-items: center;
     }
 
