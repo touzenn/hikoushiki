@@ -1,7 +1,10 @@
-header {
-    background-color:yellow;
+body,html {
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color:yellow;
 }
 .menue a {
     text-decoration: none;
