@@ -1,4 +1,6 @@
-
+body {
+    margin: 0;
+}
 
 header, header logo {
     background-color:yellow;
