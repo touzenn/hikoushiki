@@ -61,8 +61,14 @@
     }
 
     .item {
-        width: calc(50%-10px);
-        margin: 5px;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 3px;
+    }
+
+    .item:nth-child(7) {
+        width:100%;
+        justify-content:center;
     }
 
 
