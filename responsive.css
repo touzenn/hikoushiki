@@ -50,14 +50,14 @@
         justify-content: space-between;
     }
 
+    .menue a:hover {
+        text-decoration: underline;
+    }
+    
     .gallery {
         display:flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
-
-    .menue a:hover {
-        text-decoration: underline;
     }
 
     .item {
