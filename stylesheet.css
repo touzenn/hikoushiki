@@ -35,7 +35,7 @@ body {
         var(--color-14),
         var(--color-15)
     );
-    background-size: 300% 300%;
+    background-size: 700% 700%;
     animation: gradientMove 10s infinite linear;
     height: 100vh;
     margin: 0;
