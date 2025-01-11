@@ -1,0 +1,129 @@
+/* スマホ */
+@media (480px >= width){
+    main {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "home";
+    }
+
+    header a {
+        font-size: 6vh;
+        word-break: keep-all;
+    }
+    section img {
+        background-color: white;
+        display: block;
+        outline: 2px solid black;
+        width: 430px;
+        height: 490px;
+        cursor: pointer;
+    }
+
+    .h-list {
+        grid-area: home;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: min(100% - 2rem);
+    }
+
+    .h-text h1 {
+        font-size: 6.5vh;
+        text-decoration: underline;
+        text-underline-offset: 2px solid black;
+    }
+
+    .h-text h4 {
+        font-size: 4vh;
+    }
+    .h-text p {
+        font-size: 3.5vh;
+    }
+
+    .card {
+        min-width: 45%;
+        box-sizing: border-box;
+        
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .card-image img {
+        height: auto;
+        display: block;
+        border-radius: 20px;
+    }
+
+    .card-title {
+        text-align: center;
+        font-size: 1.5rem; /* タイトルのサイズを調整 */
+        font-weight: bold;
+        margin-top: 10px; /* タイトル上部に空白を追加 */
+    }
+
+    .m-cards h2 {
+        margin: 10px;
+        font-weight: bold;
+        font-size: 5vh;
+        text-decoration: underline;
+        text-underline-offset: 2px solid black;
+    }
+
+    :root {
+        --f-size: 6.5vh;
+        --t-size: 12vh;
+        --s-size: 6.8vh;
+    }
+
+    .t-sao   {font-size: var(--t-size);}
+    .t-yuu   {font-size: var(--t-size);}
+    .t-oda   {font-size: var(--t-size);}
+    .t-fuka  {font-size: var(--t-size);}
+    .t-mana  {font-size: var(--t-size);}
+    .t-mina  {font-size: var(--t-size);}
+    .t-rikou {font-size: var(--t-size);}
+
+    .l-sao   {font-size: var(--f-size);}
+    .l-yuu   {font-size: var(--f-size);}
+    .l-oda   {font-size: var(--f-size);}
+    .l-fuka  {font-size: var(--f-size);}
+    .l-mana  {font-size: var(--f-size);}
+    .l-mina  {font-size: var(--f-size);}
+    .l-rikou {font-size: var(--f-size);}
+    .g-logo  {font-size: var(--f-size);}
+
+    .s-sao   {font-size: var(--s-size);}
+    .s-yuu   {font-size: var(--s-size);}
+    .s-oda   {font-size: var(--s-size);}
+    .s-fuka  {font-size: var(--s-size);}
+    .s-mana  {font-size: var(--s-size);}
+    .s-mina  {font-size: var(--s-size);}
+    .s-rikou {font-size: var(--s-size);}
+    .s-logo  {font-size: var(--s-size);}
+
+}
+
+/* タブレット */
+@media screen and (768px <= width <= 1279px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  /* 横画面 */
+  @media (orientation: landscape) {
+
+  }
+}
+
+@media screen and (1280px >= width) {
+
+  /* 横画面 */
+  @media (orientation: landscape) {
+
+  }
+}
+
+
